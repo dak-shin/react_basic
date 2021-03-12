@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: rgb(180, 226, 240);
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.listing {
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 2rem;
+}
+
+.gpu {
+  margin: 1rem;
+  background-color: white;
+  border-radius: 1rem;
+  padding: 1rem;
+}
+
+.gpu img {
+  border-radius: 0.5rem;
+}
+
+.gpu h3,
+h4 {
+  padding: 1rem 2rem;
+}
