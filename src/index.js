@@ -16,6 +16,7 @@ const gpu2_deets = {
 };
 
 
+
 const Image = (props) => <img src={props.src} alt=""/>;
 
 const Name = (props) => <h3>{props.title}</h3>;
