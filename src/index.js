@@ -15,6 +15,7 @@ const gpu2_deets = {
   price:100000
 };
 
+
 const Image = (props) => <img src={props.src} alt=""/>;
 
 const Name = (props) => <h3>{props.title}</h3>;
